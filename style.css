@@ -1,0 +1,35 @@
+#heading1{
+    width:100%;
+    margin-top:0%;
+    font-size: larger;
+    line-height: 2;
+}
+body{
+    background-position: center;
+}
+
+#footer{
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    background-color: gray;
+    line-height: 2;
+    color:aliceblue;
+    text-align: center;
+}
+
+canvas{
+    border:3px;
+    animation-name: Camera;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Camera{
+   0%{box-shadow:5px 5px 50px blueviolet;}
+   25%{box-shadow:5px 5px 50px orange;}
+   50%{box-shadow:5px 5px 50px green;}
+   75%{box-shadow:5px 5px 50px blue;}
+   100%{box-shadow:5px 5px 50px yellow;}
+
+
+}
